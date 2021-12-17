@@ -18,22 +18,20 @@ function difficultyGame(selection) {
           console.log("hard"); //DEBUG
           gridNumBox = 49;
           gameBoxClass = "box_hard_49";
-          generateGrid();
           break;
         case "medium_difficulty":
           console.log("medium"); //DEBUG
           gridNumBox = 81;
           gameBoxClass = "box_medium_81";
-          generateGrid();
           break;
         case "normal_difficulty":
           console.log("normal"); //DEBUG
           gridNumBox = 100;
           gameBoxClass = "box_normal_100";
-          generateGrid();
           break;
         default:
       }
+      generateGrid();
     });
   }
 }
