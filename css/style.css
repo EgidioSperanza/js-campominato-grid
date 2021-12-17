@@ -13,6 +13,10 @@ button {
   height: 40px;
   margin: 0 20px;
 }
+button.active{
+  background-color: teal;
+  color: white;
+}
 #grid {
   display: flex;
   flex-wrap: wrap;
