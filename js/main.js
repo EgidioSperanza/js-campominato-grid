@@ -15,19 +15,19 @@ function difficultyGame(selection) {
       console.log(this.id);
       switch (this.id) {
         case "hard_difficulty":
-          console.log("hard");
+          console.log("hard"); //DEBUG
           gridNumBox = 49;
           gameBoxClass = "box_hard_49";
           generateGrid();
           break;
         case "medium_difficulty":
-          console.log("medium");
+          console.log("medium"); //DEBUG
           gridNumBox = 81;
           gameBoxClass = "box_medium_81";
           generateGrid();
           break;
         case "normal_difficulty":
-          console.log("normal");
+          console.log("normal"); //DEBUG
           gridNumBox = 100;
           gameBoxClass = "box_normal_100";
           generateGrid();
@@ -38,8 +38,8 @@ function difficultyGame(selection) {
   }
 }
 function generateGrid() {
+  grid.innerHTML = "";
   for (let i = 1; i <= gridNumBox; i++) {
-    grid.innerHTML = "";
     generateBox(grid, gameBoxClass, i);
   }
 }
