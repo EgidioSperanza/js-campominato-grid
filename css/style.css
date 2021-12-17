@@ -46,7 +46,7 @@ button {
 }
 
 @media only screen and (max-width: 576px) {
-  #output {
+  #grid {
     width: calc(90vw + 2px);
   }
   .box_normal_100 {
