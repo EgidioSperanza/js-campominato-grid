@@ -37,6 +37,7 @@ function difficultyGame(selection) {
     });
   }
 }
+
 function generateGrid() {
   grid.innerHTML = "";
   for (let i = 1; i <= gridNumBox; i++) {
