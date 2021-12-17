@@ -20,31 +20,38 @@ button.active{
 #grid {
   display: flex;
   flex-wrap: wrap;
-  width: calc(90vh + 2px);
+  width: 90vh;
   margin: 0 auto;
-  border: 1px solid black;
 }
 #grid > div {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
 }
 .box_normal_100 {
-  width: calc((90vh / 10));
-  height: calc((90vh / 10));
-  border: 1px solid black;
+  width: calc(90vh / 10);
+  height: calc(90vh / 10);
 }
 .box_medium_81 {
   width: calc((90vh / 9));
   height: calc((90vh / 9));
-  border: 1px solid black;
 }
 .box_hard_49 {
   width: calc((90vh / 7));
   height: calc((90vh / 7));
-  border: 1px solid black;
 }
-
+.border_top{
+  border-top: 1px solid black;
+}
+.border_left{
+  border-left: 1px solid black;
+}
+.border_top_left{
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
 .paint_grid_azure {
   background-color: teal;
 }
