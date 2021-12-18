@@ -12,6 +12,7 @@ button {
   width: 90px;
   height: 40px;
   margin: 0 20px;
+  cursor: pointer;
 }
 button.active{
   background-color: teal;
@@ -29,6 +30,7 @@ button.active{
   align-items: center;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
+  cursor: pointer;
 }
 #grid > div.box_normal_100:nth-child(10n + 1) {
   border-left: 1px solid black;
