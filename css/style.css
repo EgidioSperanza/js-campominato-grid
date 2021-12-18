@@ -33,19 +33,19 @@ button.active{
 #grid > div.box_normal_100:nth-child(10n + 1) {
   border-left: 1px solid black;
 }
-#grid > div.box_normal_100:nth-child(-n+10) {
+#grid > div.box_normal_100:nth-child(-n + 10) {
   border-top: 1px solid black;
 }
 #grid > div.box_medium_81:nth-child(9n + 1) {
   border-left: 1px solid black;
 }
-#grid > div.box_medium_81:nth-child(-n+9) {
+#grid > div.box_medium_81:nth-child(-n + 9) {
   border-top: 1px solid black;
 }
 #grid > div.box_hard_49:nth-child(7n + 1) {
   border-left: 1px solid black;
 }
-#grid > div.box_hard_49:nth-child(-n+7) {
+#grid > div.box_hard_49:nth-child(-n + 7) {
   border-top: 1px solid black;
 }
 
