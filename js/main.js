@@ -1,6 +1,6 @@
 function generateBox(outGrid, gridClass, gridNum) {
   const square = document.createElement("div");
-  square.className=gridClass;
+  square.className = gridClass;
   outGrid.append(square);
   square.innerText = gridNum;
   square.addEventListener("click", function () {
@@ -43,9 +43,10 @@ function difficultyGame(selection) {
 function generateGrid() {
   grid.innerHTML = "";
   for (let i = 1; i <= gridNumBox; i++) {
-        generateBox(grid, gameBoxClass, i);
-      }
-    }
+    generateBox(grid, gameBoxClass, i);
+  }
+}
+
 function removeActiveClass() {
   const activeBtn = document.querySelector("button.active");
   activeBtn.classList.remove("active");

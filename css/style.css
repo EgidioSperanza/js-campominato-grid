@@ -50,8 +50,6 @@ button.active{
 #grid > div.box_hard_49:nth-child(-n + 7) {
   border-top: 1px solid black;
 }
-
-
 .box_normal_100 {
   width: calc(90vh / 10);
   height: calc(90vh / 10);
